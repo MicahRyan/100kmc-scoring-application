@@ -1,0 +1,27 @@
+.logo-image {
+  width: 200px;
+}
+
+.navigation-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000;
+}
+
+.embed-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .navigation-wrapper {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .navigation-wrapper {
+    text-align: center;
+  }
+}
